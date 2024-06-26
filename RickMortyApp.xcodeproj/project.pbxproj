@@ -14,6 +14,8 @@
 		F5B99ED12C24EEBD0042E2A1 /* RickMortyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B99ED02C24EEBD0042E2A1 /* RickMortyAppTests.swift */; };
 		F5B99EDB2C24EEBD0042E2A1 /* RickMortyAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B99EDA2C24EEBD0042E2A1 /* RickMortyAppUITests.swift */; };
 		F5B99EDD2C24EEBD0042E2A1 /* RickMortyAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B99EDC2C24EEBD0042E2A1 /* RickMortyAppUITestsLaunchTests.swift */; };
+		F5B99EEA2C2B74A30042E2A1 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B99EE92C2B74A30042E2A1 /* ViewModel.swift */; };
+		F5B99EEC2C2BDC230042E2A1 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B99EEB2C2BDC230042E2A1 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		F5B99ED62C24EEBD0042E2A1 /* RickMortyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RickMortyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5B99EDA2C24EEBD0042E2A1 /* RickMortyAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickMortyAppUITests.swift; sourceTree = "<group>"; };
 		F5B99EDC2C24EEBD0042E2A1 /* RickMortyAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickMortyAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F5B99EE92C2B74A30042E2A1 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		F5B99EEB2C2BDC230042E2A1 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				F5B99EBE2C24EEBC0042E2A1 /* RickMortyAppApp.swift */,
 				F5B99EC02C24EEBC0042E2A1 /* ContentView.swift */,
+				F5B99EEB2C2BDC230042E2A1 /* Model.swift */,
+				F5B99EE92C2B74A30042E2A1 /* ViewModel.swift */,
 				F5B99EC22C24EEBD0042E2A1 /* Assets.xcassets */,
 				F5B99EC42C24EEBD0042E2A1 /* RickMortyApp.entitlements */,
 				F5B99EC52C24EEBD0042E2A1 /* Preview Content */,
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5B99EC12C24EEBC0042E2A1 /* ContentView.swift in Sources */,
+				F5B99EEA2C2B74A30042E2A1 /* ViewModel.swift in Sources */,
 				F5B99EBF2C24EEBC0042E2A1 /* RickMortyAppApp.swift in Sources */,
+				F5B99EEC2C2BDC230042E2A1 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
